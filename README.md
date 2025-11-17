@@ -179,6 +179,22 @@ If you can't connect to Neo4j:
 - Ensure virtual environment is activated
 - Reinstall dependencies: `pip install -r requirements.txt`
 
+
+## Testing
+
+Unit tests are provided in `test_app.py` to validate core functionality.
+
+To run tests:
+
+```bash
+# Install dependencies first
+pip install -r requirements.txt
+
+# Run tests
+python -m unittest test_app.py -v
+```
+
+The tests use mocking to avoid requiring actual Neo4j or OpenAI connections.
 ## Development
 
 To stop Neo4j:
