@@ -151,7 +151,7 @@ The application creates the following graph structure in Neo4j:
 ## Technology Stack
 
 - **Python 3.8+**: Programming language
-- **LangChain 0.1.0**: LLM application framework
+- **LangChain 0.3.0**: LLM application framework
 - **OpenAI GPT-3.5-turbo**: Large language model
 - **Neo4j 5.15.0**: Graph database
 - **Docker**: Containerization platform
